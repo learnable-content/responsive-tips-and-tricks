@@ -1,0 +1,78 @@
+/* -----------------------
+base styles
+------------------------*/
+
+body
+{
+	margin: 0;
+	padding: 20px;
+	color: #333;
+	background-color: #fff;
+	font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+.container
+{
+	max-width: 1180px;
+	margin: 0 auto;
+	background: #eee;
+	overflow: auto;
+}
+
+/* -----------------------
+xs screen: 0 - 460px
+------------------------*/
+
+.partners
+{
+	background-image: url(../img/xs.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-bottom: 119.05%;
+	/* 500px / 420px = 119.05% */
+}
+
+/* -----------------------
+sm screen: 461px - 700px
+------------------------*/
+
+@media (min-width: 461px) and (max-width: 700px)
+{	
+	.partners
+	{
+		background-image: url(../img/sm.png);
+		padding-bottom: 51.52%;
+		/* 340px / 660px = 51.52% */
+	}
+}
+
+/* -----------------------
+md screen: 701px - 940px
+------------------------*/
+
+@media (min-width: 701px) and (max-width: 940px)
+{	
+	.partners
+	{
+		background-image: url(../img/md.png);
+		padding-bottom: 28.89%;
+		/* 260px / 900px = 28.89% */
+	}
+}
+
+/* -----------------------
+wd screen: 941px - 1180px
+------------------------*/
+
+@media (min-width: 941px)
+{	
+	.partners
+	{
+		background-image: url(../img/wd.png);
+		padding-bottom: 15.79%;
+		/* 180px / 1140px = 15.79% */
+	}
+}
+
+
+
