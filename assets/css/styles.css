@@ -1,0 +1,93 @@
+body { padding-top: 50px; }
+.container-fluid { max-width: 1100px; }
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand { margin-left: 0; }
+.navbar-fixed-top .navbar-brand { padding: 15px 0 15px 15px; }
+
+@media (min-width:768px)
+{
+	.navbar-fixed-top .navbar-brand { padding: 14px 20px 0 0; }
+}
+
+.row-padding
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.banner 
+{
+	padding: 30px;
+	color: #fff;
+	background: #000;
+}
+
+.banner h1 { font-size: 4em; }
+
+.banner p
+{
+	font-size: 1.5em;
+	margin: 0 0 1.5em;
+}
+
+.main-content { background: rgba(255,255,255,.8); }
+
+
+/* banner */
+
+.banner
+{
+	position: relative;
+	overflow: hidden;
+	min-height: 290px;
+}
+
+
+/* video-container */
+
+.video-container
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: url(../img/sitename.jpg);
+	background-size: cover;
+}
+
+
+/* video element */
+
+.video-container video
+{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+
+/* video-mask */
+
+.video-mask
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background: url(../img/video-mask.png);
+}
+
+
+/* banner-content */
+
+.banner-content { position: relative; }
+
+
+
